@@ -1,0 +1,33 @@
+.App{
+  display:table;
+}
+.Lista{
+  background: #000000;
+}
+.btnEnviar{
+  background: #39FF33;
+}
+.btnEnviar:hover{
+  background: #FFFFFF;
+}
+.cabecera{
+  text-align: center;
+  background-image: linear-gradient(#8F8D8D,#4B4747);
+  height: auto;
+		}
+.cabecera:hover{
+  background: #5B4343;
+}
+.cabecera h1{
+  color: #F73E0D;
+  padding: 25px 25px;
+	-webkit-transition:-webkit-transform 0.25s ease 0.25s;
+	-webkit-transform:skew(10deg);
+	-ms-transition:-ms-transform 0.25s ease 0.25s;
+	-ms-transform:skew(10deg);
+}
+.cabecera h1:hover{
+  color: #0D42F7;
+  -webkit-transform:rotate(5deg);
+  -ms-transform:rotate(5deg);
+}
